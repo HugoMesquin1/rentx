@@ -15,14 +15,14 @@ class CategoriesRepository
  
   async create({description, name } : ICreateCategoryDTO): Promise<void> {
 
-  const category = this.repository.create({
-    description,
-    name,
-  })
+    const category = this.repository.create({
+     description,
+     name,
+    })
 
-  await this.repository.save(category)
+   await this.repository.save(category)
+  }
 
- }
   async list(): Promise<Category[]> {
     const categories = await this.repository.find()
     return categories
