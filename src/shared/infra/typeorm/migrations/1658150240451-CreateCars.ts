@@ -1,4 +1,4 @@
-import {MigrationInterface, QueryRunner, Table, TableForeignKey} from "typeorm";
+import {MigrationInterface, QueryRunner, Table, } from "typeorm";
 
 export class CreateCars1658150240451 implements MigrationInterface {
 
@@ -58,7 +58,7 @@ export class CreateCars1658150240451 implements MigrationInterface {
                         name: "FKCategoryCar",
                         referencedTableName: "categories",
                         referencedColumnNames: ["id"],
-                        columnNames: ["id"],
+                        columnNames: ["category_id"],
                         onDelete: "SET NULL",
                         onUpdate: "SET NULL",
                     }
