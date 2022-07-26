@@ -8,10 +8,11 @@ interface ICarsRepository {
   
   findByLicensePlate(license_plate: string)
   
-  findAvaliable(brand?: string,
+  findAvaliable
+   (brand?: string,
+   category_id?: string,
+   name?: string): Promise<Car[]>
   
-    category_id?: string,
-    name?: string): Promise<Car[]>
 }
 
 export { ICarsRepository } 
