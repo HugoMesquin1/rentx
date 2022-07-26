@@ -1,6 +1,6 @@
+import "reflect-metadata"
 import {ListAvailableCarsUseCase} from "./ListAvailableCarsUseCase"
 import {CarsRepositoryInMemory} from "../../repositories/in-memory/CarsRepositoryInMemory"
-
 let listAvaliableCarsUseCase: ListAvailableCarsUseCase
 let carsRepositoryInMemory: CarsRepositoryInMemory
 
