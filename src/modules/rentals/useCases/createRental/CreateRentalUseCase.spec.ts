@@ -1,3 +1,5 @@
+import "reflect-metadata"
+
 import dayjs from "dayjs"
 
 import { RentalsRepositoryInMemory } from "../../repositories/in-memory/RentalsRepositoryInMemory"
@@ -77,5 +79,3 @@ describe ("Create Rental", () => {
     }).rejects.toBeInstanceOf(AppError)
   })
 })
-       
-      
