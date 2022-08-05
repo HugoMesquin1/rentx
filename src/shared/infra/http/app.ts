@@ -9,7 +9,7 @@ import swaggerFile from "../../../swagger.json"
 
 import createConnection  from "@shared/infra/typeorm" 
 
-import "@shared/container"
+import "../../container"
 
 
 createConnection()
