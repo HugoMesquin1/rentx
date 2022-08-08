@@ -14,8 +14,8 @@ interface IRequest {
 
 
 
-class DevolutionRentalUseCase {
-
+  @injectable()
+  class DevolutionRentalUseCase {
   constructor(
     @inject("RentalsRepository")
     private rentalsRepository: IRentalsRepository,
