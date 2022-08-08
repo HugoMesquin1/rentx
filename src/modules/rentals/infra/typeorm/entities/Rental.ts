@@ -30,6 +30,8 @@ class Rental {
   
   @UpdateDateColumn()
   updated_at: Date
+  daily_rate: any
+  fine_amount: number
 
   constructor() {
     if("this.id") {
