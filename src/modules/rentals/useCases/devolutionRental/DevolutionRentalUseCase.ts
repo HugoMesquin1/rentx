@@ -29,7 +29,7 @@ interface IRequest {
   async execute({id, user_id}: IRequest): Promise<Rental>{
     const rental = await this.rentalsRepository.findById(id)
     const minimum_daily = 1
-    const car = await this.rentalsRepository.findById(id)
+    const car = await this.rentalsRepository.findById(rental.car_id)
 
     if(!rental) {
       throw new AppError("Rental does not exist")
