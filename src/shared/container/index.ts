@@ -1,6 +1,7 @@
+import './Dateprovider'
+
 import { IUsersTokensRepository } from 'modules/accounts/repositories/IUsersTokensRepository';
 import { container } from "tsyringe"
-
 
 
 import { ICategoriesRepository } from "modules/cars/repositories/ICategoriesRepository"
@@ -37,22 +38,19 @@ container.registerSingleton<IUsersRepository>(
   UsersRepository
 )
 
-container.registerSingleton<ICarsRepository>(
-  "CarsRepository", 
-  CarsRepository
-  )
+container.registerSingleton<ICarsRepository>("CarsRepository", CarsRepository);
 
-  container.registerSingleton<ICarsImagesRepository>(
-    "CarsImagesRepository", 
-    CarsImagesRepository
-    )
+container.registerSingleton<ICarsImagesRepository>(
+  "CarsImagesRepository",
+  CarsImagesRepository
+)
 
-    container.registerSingleton<IRentalsRepository>(
-      "RentalsRepository", 
-      RentalsRepository
-    )
+container.registerSingleton<IRentalsRepository>(
+  "RentalsRepository",
+  RentalsRepository
+)
 
-    container.registerSingleton<IUsersTokensRepository>(
-      "UsersTokensRepository",  
-      UsersTokensRepository
-    )
+container.registerSingleton<IUsersTokensRepository>(
+  "UsersTokensRepository",
+  UsersTokensRepository
+)
