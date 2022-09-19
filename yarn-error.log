@@ -1,5 +1,5 @@
 Arguments: 
-  D:\node.exe C:\Users\Hugo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add nodemailer
+  D:\node.exe C:\Users\Hugo\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add @types/nodemailer -D
 
 PATH: 
   C:\Python310\Scripts\;C:\Python310\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;D:\;C:\ProgramData\chocolatey\bin;C:\xampp\mysql\bin\;C:\Program Files\MongoDB\Server\5.0\bin;C:\Program Files\MongoDB\Tools\100\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Git\cmd;C:\Users\Hugo\AppData\Local\Microsoft\WindowsApps;;D:\Microsoft VS Code\bin;D:\PyCharm Community Edition 2022.1\bin;;C:\Users\Hugo\AppData\Roaming\npm
@@ -38,6 +38,7 @@ npm manifest:
       "express-async-errors": "^3.1.1",
       "jsonwebtoken": "^8.5.1",
       "multer": "^1.4.4",
+      "nodemailer": "^6.7.8",
       "pg": "^8.7.3",
       "reflect-metadata": "^0.1.13",
       "swagger-ui-express": "^4.4.0",
@@ -3371,6 +3372,11 @@ Lockfile:
     version "2.0.6"
     resolved "https://registry.npmjs.org/node-releases/-/node-releases-2.0.6.tgz"
     integrity sha512-PiVXnNuFm5+iYkLBNeq5211hvO38y63T0i2KKh2KnUs3RpzJ+JtODFjkD8yjLwnDkTYF1eKXheUwdssR+NRZdg==
+  
+  nodemailer@^6.7.8:
+    version "6.7.8"
+    resolved "https://registry.yarnpkg.com/nodemailer/-/nodemailer-6.7.8.tgz#9f1af9911314960c0b889079e1754e8d9e3f740a"
+    integrity sha512-2zaTFGqZixVmTxpJRCFC+Vk5eGRd/fYtvIR+dl5u9QXLTQWGIf48x/JXvo58g9sa0bU6To04XUv554Paykum3g==
   
   normalize-path@^3.0.0, normalize-path@~3.0.0:
     version "3.0.0"
