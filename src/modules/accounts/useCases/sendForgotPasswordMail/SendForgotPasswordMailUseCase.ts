@@ -37,7 +37,11 @@ class SendForgotPasswordMailUseCase {
       expires_date,
     })
 
-    await this.mailProvider.SendMail(email, "Recuperação de senha", `O link para o reset é ${token}`)
+    await this.mailProvider.SendMail(
+      email, 
+      "Recuperação de senha",
+     `O link para o reset é ${token}`
+     )
 
     
   }
