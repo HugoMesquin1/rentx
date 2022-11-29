@@ -12,7 +12,7 @@ import { ensureAdmin } from "../middlewares/ensureAdmin"
 import { ensureAuthenticated } from "../middlewares/ensureAuthenticated"
 
 
-const upload = multer(uploadConfig.upload("./tmp/cars"))
+const upload = multer(uploadConfig)
 
 
 const carsRoutes = Router()

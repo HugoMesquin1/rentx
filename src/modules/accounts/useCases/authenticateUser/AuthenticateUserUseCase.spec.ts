@@ -5,7 +5,7 @@ import {CreateUserUseCase} from "../CreateUser/CreateUserUseCase"
 import {ICreateUserDTO} from "modules/accounts/dtos/ICreateUserDTO"
 import {AppError} from "@shared/errors/AppError"
 import {UsersTokensRepositoryInMemory} from "../../../accounts/repositories/in-memory/UsersTokensRepositoryInMemory"
-import { DayjsDateProvider } from "@shared/container/Dateprovider/implementations/DayJsDateProvider"
+import { DayjsDateProvider } from "@shared/container/providers/Dateprovider/implementations/DayJsDateProvider"
 
 let authenticateUserUseCase: AuthenticateUserUseCase
 let usersRepositoryInMemory: UsersRepositoryInMemory

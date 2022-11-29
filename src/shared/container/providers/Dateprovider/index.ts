@@ -1,4 +1,4 @@
-import { IMailProvider } from '@shared/container/MailProvider/IMailProvider';
+import { IMailProvider } from '@shared/container/providers/MailProvider/IMailProvider';
 import { container } from "tsyringe"
 import { EtherealMailProvider } from "../MailProvider/implementations/EtherealMailProvider"
 import { IDateProvider } from "./IDateProvider"

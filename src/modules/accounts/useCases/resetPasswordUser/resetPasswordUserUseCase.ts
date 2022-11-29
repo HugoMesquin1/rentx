@@ -1,4 +1,4 @@
-import { IDateProvider } from '@shared/container/Dateprovider/IDateProvider';
+import { IDateProvider } from '@shared/container/providers/Dateprovider/IDateProvider';
 import { AppError } from './../../../../shared/errors/AppError';
 import { IUsersTokensRepository } from 'modules/accounts/repositories/IUsersTokensRepository';
 import { UsersTokensRepository } from 'modules/accounts/infra/typeorm/repositories/UsersTokensRepository';

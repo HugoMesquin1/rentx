@@ -1,11 +1,11 @@
 import { AppError } from './../../../../shared/errors/AppError';
 import "reflect-metadata"
 
-import { DayjsDateProvider } from '@shared/container/Dateprovider/implementations/DayJsDateProvider';
+import { DayjsDateProvider } from '@shared/container/providers/Dateprovider/implementations/DayJsDateProvider';
 import { SendForgotPasswordMailUseCase } from "./SendForgotPasswordMailUseCase"
 import { UsersRepositoryInMemory } from "modules/accounts/repositories/in-memory/UsersRepositoryInMemory"
 import { UsersTokensRepositoryInMemory } from 'modules/accounts/repositories/in-memory/UsersTokensRepositoryInMemory';
-import { MailProviderInMemory } from '@shared/container/MailProvider/in-memory/MailProviderInMemory';
+import { MailProviderInMemory } from '@shared/container/providers/MailProvider/in-memory/MailProviderInMemory';
  
 
 let sendForgotPasswordMailUseCase: SendForgotPasswordMailUseCase

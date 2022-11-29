@@ -1,5 +1,5 @@
 import auth from "@config/auth"
-import { IDateProvider } from "@shared/container/Dateprovider/IDateProvider";
+import { IDateProvider } from "@shared/container/providers/Dateprovider/IDateProvider";
 import { AppError } from "@shared/errors/AppError";
 import {verify, sign} from "jsonwebtoken"
 

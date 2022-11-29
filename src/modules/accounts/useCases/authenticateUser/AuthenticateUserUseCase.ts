@@ -6,7 +6,7 @@ import { compare } from "bcryptjs"
 import { sign } from "jsonwebtoken"
 import { inject, injectable } from "tsyringe"
 
-import { IDateProvider } from "shared/container/Dateprovider/IDateProvider"
+import { IDateProvider } from "@shared/container/providers/Dateprovider/IDateProvider"
 import { AppError } from "@shared/errors/AppError"
 
 interface IRequest {

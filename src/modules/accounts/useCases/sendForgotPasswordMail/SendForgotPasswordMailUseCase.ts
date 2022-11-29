@@ -5,8 +5,8 @@ import {resolve} from "path"
 import { IUsersRepository } from 'modules/accounts/repositories/IUsersRepository';
 import { IUsersTokensRepository } from 'modules/accounts/repositories/IUsersTokensRepository';
 import { inject, injectable } from "tsyringe"
-import { IDateProvider } from '@shared/container/Dateprovider/IDateProvider';
-import { IMailProvider } from '@shared/container/MailProvider/IMailProvider';
+import { IDateProvider } from '@shared/container/providers/Dateprovider/IDateProvider';
+import { IMailProvider } from '@shared/container/providers/MailProvider/IMailProvider';
 
 
 @injectable()

@@ -1,4 +1,4 @@
-import './Dateprovider'
+import './providers/Dateprovider'
 
 import { IUsersTokensRepository } from 'modules/accounts/repositories/IUsersTokensRepository';
 import { container } from "tsyringe"
