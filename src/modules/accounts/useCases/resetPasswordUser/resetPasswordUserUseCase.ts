@@ -1,10 +1,10 @@
 import { IDateProvider } from '@shared/container/providers/Dateprovider/IDateProvider';
 import { AppError } from './../../../../shared/errors/AppError';
-import { IUsersTokensRepository } from 'modules/accounts/repositories/IUsersTokensRepository';
-import { UsersTokensRepository } from 'modules/accounts/infra/typeorm/repositories/UsersTokensRepository';
+import { IUsersTokensRepository } from '../../../../../src/modules/accounts/repositories/IUsersTokensRepository';
+import { UsersTokensRepository } from '../../../../../src/modules/accounts/infra/typeorm/repositories/UsersTokensRepository';
 import { inject, injectable } from "tsyringe"
 import {hash } from "bcryptjs"
-import { IUsersRepository } from 'modules/accounts/repositories/IUsersRepository';
+import { IUsersRepository } from '../../../../../src/modules/accounts/repositories/IUsersRepository';
 
 
 

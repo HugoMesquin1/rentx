@@ -1,5 +1,5 @@
-import { ICreateUserTokenDTO } from "../dtos/ICreateUserTokenDTO"
-import { UserTokens } from "../infra/typeorm/entities/UserTokens"
+import { ICreateUserTokenDTO } from "../../../../src/modules/accounts/dtos/ICreateUserTokenDTO"
+import { UserTokens } from "../../../../src/modules/accounts/infra/typeorm/entities/UserTokens"
 
 
 

@@ -1,6 +1,6 @@
 import {Car} from "../entities/Car"
 import {ICarsRepository} from "../../../../cars/repositories/ICarsRepository"
-import { ICreateCarDTO } from "modules/cars/dtos/ICreateCarDTO"
+import { ICreateCarDTO } from "../../../../../../src/modules/cars/dtos/ICreateCarDTO"
 import {getRepository, Repository} from "typeorm"
 
 

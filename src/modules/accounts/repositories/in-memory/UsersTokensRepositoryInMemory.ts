@@ -1,5 +1,6 @@
-import { ICreateUserTokenDTO } from "modules/accounts/dtos/ICreateUserTokenDTO";
-import { UserTokens } from "modules/accounts/infra/typeorm/entities/UserTokens";
+
+import {ICreateUserTokenDTO} from "../../../../../src/modules/accounts/dtos/ICreateUserTokenDTO"
+import { UserTokens } from "../../../../../src/modules/accounts/infra/typeorm/entities/UserTokens";
 import { IUsersTokensRepository } from "../IUsersTokensRepository";
 
 

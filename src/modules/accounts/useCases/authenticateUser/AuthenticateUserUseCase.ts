@@ -1,7 +1,7 @@
 import auth from "@config/auth";
 
-import { IUsersRepository } from "modules/accounts/repositories/IUsersRepository"
-import { IUsersTokensRepository } from "modules/accounts/repositories/IUsersTokensRepository"
+import { IUsersRepository } from "../../../../../src/modules/accounts/repositories/IUsersRepository"
+import { IUsersTokensRepository } from "../../../../../src/modules/accounts/repositories/IUsersTokensRepository"
 import { compare } from "bcryptjs"
 import { sign } from "jsonwebtoken"
 import { inject, injectable } from "tsyringe"

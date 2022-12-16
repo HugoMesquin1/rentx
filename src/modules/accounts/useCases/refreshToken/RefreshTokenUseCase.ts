@@ -4,7 +4,7 @@ import { AppError } from "@shared/errors/AppError";
 import {verify, sign} from "jsonwebtoken"
 
 
-import { IUsersTokensRepository } from 'modules/accounts/repositories/IUsersTokensRepository';
+import { IUsersTokensRepository } from '../../../../../src/modules/accounts/repositories/IUsersTokensRepository';
 import { inject, injectable } from "tsyringe"
 
 
